@@ -1,0 +1,206 @@
+/* HEADER */
+
+
+.header-top {
+    background-color: #f72210;
+    padding: 15px;
+    align-items: center;
+    margin: 0;
+}
+.header-top img {
+    max-width: 100%;
+    height: auto;
+}
+.header-top img:hover {
+    cursor: pointer;
+}
+.date {
+    color: #fff;
+    padding-top: 10px;
+}
+.login {
+    color: #fff;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.login:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.header-top .btn {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-nav {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-nav input {
+    width: 70px;
+}
+.navbar-nav > * {
+    padding: 10px 12px;
+    border-right: 1px solid #ddd;
+    
+}
+.navbar-nav a {
+    color: #000;
+    font-weight: bold;
+}
+.navbar-nav a:hover {
+    color: #f72210;
+}
+
+
+/* TOP SECTION */
+
+
+.top-sec {
+    padding: 20px;
+}
+.top-sec > * {
+    padding: 0 10px;
+}
+.top-sec h6 {
+    color: #999;
+    font-size: 14px;
+    font-weight: bold;
+}
+.top-sec img {
+    width: 100%;
+    cursor: pointer;
+}
+.top-sec h5 {
+    padding: 5px 0;
+    font-size: 22px;
+}
+.top-sec h5 a {
+    color: #000;
+    font-weight: bold;
+}
+.top-sec h4 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.my-turn {
+    cursor: pointer;
+}
+.more-item img {
+    height: 100px;
+}
+.more-item {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+.more-item a, .debate-wraper a, .opinion-wraper a {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+}
+.more-item p {
+    font-size: 14px;
+    margin: 0;
+}
+.debate-wraper h3 a, .opinion-wraper a {
+    font-size: 13px;
+}
+.debate-wraper h3 a:hover, .opinion-wraper a:hover {
+    color: #f92859;
+    text-decoration: none;
+}
+.debate-wraper h3, .opinion-wraper h3 {
+    margin: 0;
+}
+.byline {
+    font-size: 13px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.debate1 {
+    padding: 10px 0 20px 0;
+    border-top: 4px solid #f92859;
+}
+.debate2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 0 20px 0;
+    border-bottom: 4px solid #1c87fb;   
+}
+.opinion-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    padding: 20px;
+    background-color: #eee;
+}
+.start {
+    color: #222;
+    font: bold 15px/1 "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.sign-up button {
+    color: #fff;
+    background-color: #f72210;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+
+/* Middle Section */
+
+
+.middle-sec span {
+    color: #f72210;
+    font-weight: bold;
+    font-size: 22px;
+}
+.mid-container {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.middle-wraper h4 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.middle-wraper h4 a {
+    color: #000;
+}
+.mid-side {
+    padding: 15px 0;
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+.mid-side h5 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.mid-side h5 a {
+    color: #000;
+}
+.mid-side h5 a:hover {
+    color: #f92859;
+    text-decoration: none;
+}
